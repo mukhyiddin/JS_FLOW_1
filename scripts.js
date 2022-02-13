@@ -8,17 +8,15 @@
 ///   - jika IYA, maka cetak tulisan "Selamat berkendara"
 ///   - jika Tidak, maka cetak tulisan "Diharapkan untuk membuat SIM terlebih dahulu"
 
-// const userAge = 20;
-// const drivingLicense = true;
+const userAge = 20;
+const drivingLicense = true;
 
-// if (userAge<=18){
-//   console.log("Anda belum cukup umur")
-// } else if {
-//   console.log("Anda sudah cukup umur")
-//   console.log("Selamat berkendara")
-// } else (drivingLicense != true){
-//   console.log("Diharapkan untuk membuat SIM terlebih dahulu")
-// } 
+if (userAge<=18 && drivingLicense != true){
+  console.log("Anda belum cukup umur")
+} else {
+  console.log("Anda sudah cukup umur")
+  console.log("Selamat berkendara")
+} 
 
 
 /// Soal - 02
